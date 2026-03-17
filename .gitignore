@@ -1,3 +1,15 @@
-.venv
-__pycache__
+# entorno
+.venv/
+
+# variables sensibles
+.env
+
+# archivos pesados
+data/raw/
+
+# outputs temporales
+__pycache__/
 *.pyc
+
+# sistema
+.DS_Store
